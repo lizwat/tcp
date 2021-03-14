@@ -1,0 +1,7 @@
+Aproach:
+	The approach was to create the socket using socket.socket(), connect it to the server, and after sending an initial hello message, solve the resulting arithmetic problems and close the socket once receiving the bye message
+			
+	
+	Testing:
+		I tested the code using the server multiple times, with different inputs to see if the program would throw the right error messages, and to see if the program would return the correct secret number
+		I tested with the server multiple times so that I could see if corrupted messages from server were sent and if corresponding erros were thrown
