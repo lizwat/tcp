@@ -1,3 +1,6 @@
+A simple TCP client to connect to the server at pc4.geni.case.edu
+
+Run using command arguemts: ./client -p port -s hostname emw119
 Aproach:
 	The approach was to create the socket using socket.socket(), connect it to the server, and after sending an initial hello message, solve the resulting arithmetic problems and close the socket once receiving the bye message
 			
